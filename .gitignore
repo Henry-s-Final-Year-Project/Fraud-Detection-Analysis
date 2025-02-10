@@ -1,0 +1,57 @@
+# Virtual environment
+.venv/
+venv/
+!venv/bin/
+!venv/lib/
+
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs & Debugging
+logs/
+*.log
+debug.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Python dependencies
+env/
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Data files
+*.csv
+*.db
+*.sqlite3
+*.h5
+*.parquet
+
+# Testing & Coverage reports
+htmlcov/
+.coverage
+*.cover
+.cache
+nosetests.xml
+coverage.xml
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Docker & Kubernetes
+*.dockerfile
+docker-compose.override.yml
